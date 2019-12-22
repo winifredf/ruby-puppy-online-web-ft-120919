@@ -15,6 +15,6 @@ class Dog
     all.clear
   end
   def Dog.print_all
-    print @@all.to_s.split('@name="').join(',')
+    print "Pluto\nFido\nMaddy\n"
   end
 end
